@@ -1,4 +1,4 @@
-import './styles.css';
+import './css/styles.css';
 import { fetchImages } from './pixabay-api.js';
 import {
   clearGallery,
