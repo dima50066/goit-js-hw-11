@@ -1,5 +1,6 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
+import iziToast from 'izitoast';
 
 export function clearGallery(galleryElement) {
   galleryElement.innerHTML = '';
