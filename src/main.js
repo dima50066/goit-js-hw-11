@@ -1,3 +1,4 @@
+import './styles.css';
 import { fetchImages } from './pixabay-api.js';
 import {
   clearGallery,
@@ -8,7 +9,7 @@ import {
   showInfo,
 } from './render-functions.js';
 import 'izitoast/dist/css/iziToast.min.css';
-import 'css-loader/dist/css-loader.css';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const searchForm = document.getElementById('search-form');
 const searchInput = document.getElementById('search-input');
