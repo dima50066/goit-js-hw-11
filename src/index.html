@@ -8,14 +8,13 @@
 </head>
 
 <body>
-  <h1>Image Search App</h1>
-  <form id="search-form">
-    <input type="text" id="search-input" placeholder="Search images..." required>
-    <button class="search-button" type="submit">Search</button>
+  <form class="search-form">
+    <input class="search-input" type="text" name="search-input" placeholder="Search images..." /><button
+      class="search-btn" type="submit">Search</button>
   </form>
-  <div class="loader loader-default" id="loader"></div>
-  <div class="gallery" id="gallery"></div>
-  <script type="module" src="/main.js"></script>
+  <span class="loader visually-hidden"></span>
+  <ul class="gallery"></ul>
+  <script type="module" src="./main.js"></script>
 </body>
 
 </html>
